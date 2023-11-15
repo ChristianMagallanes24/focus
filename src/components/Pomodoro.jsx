@@ -8,7 +8,7 @@ const Pomodoro = () => {
     const [seconds, setSeconds] = useState(storedTime.seconds);
     const [isActive, setIsActive] = useState(false);
     const intervalRef = useRef(null);
-
+    const url = "https://open.spotify.com/embed/album/35DIb6j45YmbHAfyN7HgaG?utm_source=generator&theme=0";
     useEffect(() => {
         if (isActive) {
             intervalRef.current = setInterval(() => {
@@ -64,10 +64,18 @@ const Pomodoro = () => {
             </button>
             </div>
             <div className="ifm" >
-            <iframe src="https://open.spotify.com/embed/album/35DIb6j45YmbHAfyN7HgaG?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ></iframe>
+            <iframe
+  title="Contenido embebido único"
+  width="600"
+  height="400"
+  src={url}
+  frameBorder="0"
+  allowFullScreen
+></iframe>
             </div>
             
         </div>
+        
     );
 };
 
