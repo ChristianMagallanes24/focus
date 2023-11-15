@@ -53,7 +53,7 @@ const Pomodoro = () => {
 
     return (
         <div className="focus-container">
-            <h1 className="titulo">Focus</h1>
+            <h1 className="titulo">Focuss</h1>
             <p className="count-number">
                 {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
             </p>
