@@ -57,25 +57,25 @@ const Pomodoro = () => {
             <p className="count-number">
                 {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
             </p>
-            <div className="btn-container"> 
-            <button className="btn" onClick={toggleTimer}>{isActive ? 'Pause' : 'Start'}</button>
-            <button className="btn" onClick={continueTimer} disabled={isActive}>
-                Continue
-            </button>
+            <div className="btn-container">
+                <button className="btn" onClick={toggleTimer}>{isActive ? 'Pause' : 'Start'}</button>
+                <button className="btn" onClick={continueTimer} disabled={isActive}>
+                    Continue
+                </button>
             </div>
             <div className="ifm" >
-            <iframe
-  title="Contenido embebido único"
-  width="600"
-  height="400"
-  src={url}
-  frameBorder="0"
-  allowFullScreen
-></iframe>
+                <iframe className="if"
+                    title="Contenido embebido único"
+                    width="auto"
+                    height="auto"
+                    src={url}
+                    frameBorder="0"
+                    allowFullScreen
+                ></iframe>
             </div>
-            
+
         </div>
-        
+
     );
 };
 
