@@ -1,0 +1,9 @@
+body{
+  background-image: url(https://cdn.wallpapersafari.com/8/57/cmztsr.jpg);
+}
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

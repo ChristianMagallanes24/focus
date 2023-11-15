@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.focus-container{
+    background-color: rgba(13, 187, 13, 0.267);
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border-radius: 20px 900px 10px 900px;
+}
+.titulo{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.count-number{
+    font-size: 58px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+}
+.btn-container{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    
+}
+.btn{
+    background: transparent;
+    cursor: pointer;
+    border: hidden;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .2s;
+}
+.btn:hover{
+    
+
+}
+.ifm{
+    width: 100%;
+    margin-top: 20px;
+}
