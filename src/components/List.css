@@ -1,0 +1,40 @@
+.list {
+    text-align: center;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .list h2{
+    color: #fff;
+  }
+  
+  input {
+    
+  }
+  
+
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-around;
+    background-color: rgba(13, 187, 13, 0.267);
+    backdrop-filter: blur(6px);
+  }
+  .p{
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+  }
+.bton-add{
+  margin-left: 30px;
+  background: none;
+  font-size: 30px;
+  border: hidden;
+}
+    

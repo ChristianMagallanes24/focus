@@ -38,10 +38,7 @@
     font-family: 'Josefin Sans', sans-serif;
     transition: .2s;
 }
-.btn:hover{
-    
 
-}
 .ifm{
     display: flex;
     align-items: center;
@@ -53,7 +50,7 @@
     width: 600px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .if{
         width: auto;
     }
